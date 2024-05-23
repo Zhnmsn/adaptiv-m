@@ -1,0 +1,86 @@
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0;
+    align-items: center;
+    width: 290px;
+    margin: 0 auto;
+}
+.footer__section {
+    background: rgb(47, 50, 75);
+    max-width: 1600px;
+}
+
+.logo__img {
+    float: left;
+    width: 45px;
+    height: 30px;
+    margin-right: 19px;
+    align-content: center;
+    padding-left: 15px;
+}
+
+.footer__tel {
+    width: 210px;
+    color: var(--main-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    display: none;
+}
+
+.logo__text {
+    color: var(--main-color);
+    text-align: left;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 9px;
+    width: 150px;
+    padding: 6px 0;
+}
+.footer__text {
+    color: var(--main-color);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    display: none;
+}
+
+.footer__phone {
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-decoration: underline;
+    text-align: center;
+    width: 160px;
+    padding-left: 35px;
+    
+}
+.footer__phone-me {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.footer__phone-logo {
+    background-image: url(../img/Phone-logo.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    padding-right: 15px;
+}
+.sub-footer_section {
+    background-color: rgb(42, 44, 63);
+    height: 47px;
+    width: 320px;
+}
+.sub-footer__text {
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+

@@ -1,0 +1,122 @@
+.main__title {
+    color: var(--black-color);
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    width: 285px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#main__section {
+    padding-top: 70px;
+}
+
+.main__about {
+    color: var(--black-color);
+    margin: 0 auto;
+    width: 189px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-bottom: 26px;
+}
+
+.main__about::before  {
+    background-image: url(../img/line.svg);
+    content: "";
+    display: inline-block;
+    background-size: contain;
+    width: 19.71px;
+    height: 2px;
+    margin-right: 20px;
+    vertical-align: middle;
+    
+}
+
+.main__about::after  {
+    background-image: url(../img/line.svg);
+    content: "";
+    display: inline-block;
+    background-size: contain;
+    width: 19.71px;
+    height: 2px;
+    vertical-align: middle;
+    margin-left: 20px
+}
+
+.main__text {
+    color: var(--black-color);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    width: 290px;
+    margin-bottom: 40px;
+}
+
+.main__numbers {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.numbers__text{
+    text-align: center;
+    color: var(--black-color);
+    margin: 0 auto;
+    width: 166px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.numbers__item{
+    width: 196px;
+    height: 185px;
+    margin: 0 auto;
+}
+
+.numbers__digit {
+    background-color: rgb(35, 199, 236);
+    border-radius: 50%;
+    width: 114px;
+    height: 90px;
+    color: var(--main-color);
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 61px;
+}
+
+.main__container {
+    padding-bottom: 60px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+
+.mySwiper [class^="swiper-button-"]{
+    width: 55px;
+    height: 55px;
+}
+
+.mySwiper [class^="swiper-button-"]::after{
+    content: "";
+}

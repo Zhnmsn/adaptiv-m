@@ -1,0 +1,91 @@
+.header__section {
+    background-image: url(../img/header-main-image.png);
+    max-width: 320px;
+    height: 441px;
+    background-size: cover;
+}
+
+.header__img {
+    padding-top: 15px;
+}
+
+.header__text {
+    display: none;
+}
+.header__link {
+    text-decoration: none;
+}
+.header__logo {
+    width: 30px;
+    height: 30px;
+    
+}
+
+.header__sub-text {
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-decoration: underline;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 65px;
+    width: 290px;
+    margin: 0 auto;
+}
+
+.header__container {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.header__title {
+    color: rgba(255, 255, 255, 0.86);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23px;
+    width: 290px;
+    margin-bottom: 23px;
+}
+
+.header__description {
+    color: rgba(255, 255, 255, 0.75);
+    margin: 0 auto;
+    text-align: center;
+    width: 290px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 54px;
+}
+
+.detail {
+    border-radius: 50px;
+    box-shadow: 0px 4px 25px 0px rgba(21, 169, 203, 0.3);
+    background: rgb(21, 169, 203);
+    color: var(--main-color);
+    height: 48px;
+    text-decoration: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding-top: 12px;
+    width: 160px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.header__phone-logo {
+    background-image: url(../img/Phone-logo.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    
+}
+
+

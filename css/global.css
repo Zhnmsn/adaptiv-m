@@ -1,0 +1,62 @@
+html {
+    position: relative;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    --main-color:rgb(255, 255, 255);
+    --black-color:rgb(56, 58, 76);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    position: relative;
+    overflow-x: hidden;
+    max-width: 320px;
+    min-height: 100vh;
+    font-family:  Roboto, sans-serif;
+    
+}
+
+img svg{
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+input,
+textarea,
+select {
+    font-family: inherit;
+}
+
+
+
+h1,
+h2,
+h3,
+p,
+blockquote  {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+fieldset {
+    border-style: none;
+}
+
